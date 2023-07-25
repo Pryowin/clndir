@@ -10,7 +10,7 @@ const DOWNLOADS: &str = "Downloads";
 const SECS_IN_A_DAY: u64 = 60 * 60 * 24;
 const DELETE_COMMAND: &str = "DEL";
 const DATE_FORMAT: &str = "%Y-%m-%d";
-const DEFAULT_NUMBER_OF_DAYS: u64 = 600;
+const DEFAULT_NUMBER_OF_DAYS: u64 = 180;
 
 #[derive(Parser)]
 #[command(name = "clndir")]
